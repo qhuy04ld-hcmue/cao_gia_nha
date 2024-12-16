@@ -27,3 +27,7 @@
 * BsmtFinSF2: Diện tích tầng hầm loại 2 (phần diện tích được hoàn thiện).
 * TotalBsmtSF: Tổng diện tích tầng hầm (kể cả các phần chưa hoàn thiện).
 * SalePrice: Giá bán nhà (đây là giá trị cần dự đoán).
+Cách chạy code: mở file test.py, mở terminal gõ:
+python test.py
+
+* Lưu ý: Cài đặt các thư viện trên và cài đặt(khá nặng) và cài đặt trước nha, rồi chạy sẽ đỡ nhọc hơn
