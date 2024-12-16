@@ -1,0 +1,204 @@
+1. Mssubclass
+20: Nhà hai tầng có tầng hầm (1-STORY 1946 & NEWER ALL STYLES).
+Nhà hiện đại, xây từ năm 1946 trở đi, một tầng với tầng hầm.
+
+30: Nhà hai tầng cũ (1-STORY 1945 & OLDER).
+Nhà một tầng, xây dựng từ năm 1945 hoặc trước đó.
+
+40: Nhà một tầng không tầng hầm (1-STORY W/FINISHED ATTIC ALL AGES).
+Nhà một tầng có gác mái hoàn thiện, không phân biệt năm xây dựng.
+
+45: Nhà một tầng có gác mái không hoàn thiện (1-1/2 STORY - UNFINISHED ALL AGES).
+Nhà một tầng với gác mái chưa hoàn thiện.
+50: Nhà hai tầng có gác mái hoàn thiện (1-1/2 STORY FINISHED ALL AGES).
+Nhà một tầng rưỡi (gác mái đã hoàn thiện).
+
+60: Nhà hai tầng (2-STORY 1946 & NEWER).
+Nhà hai tầng, xây từ năm 1946 trở đi.
+
+70: Nhà hai tầng cũ (2-STORY 1945 & OLDER).
+Nhà hai tầng, xây dựng từ năm 1945 hoặc trước đó.
+
+75: Nhà hai tầng hiện đại (2-1/2 STORY ALL AGES).
+Nhà hai tầng rưỡi, không phân biệt năm xây dựng.
+
+80: Nhà chia lô kiểu split/multi-level (SPLIT OR MULTI-LEVEL).
+Nhà có thiết kế đa tầng hoặc lệch tầng.
+
+85: Nhà chia lô dạng split foyer (SPLIT FOYER).
+Nhà có sảnh chính ở giữa hai tầng (thường là tầng trên và tầng hầm).
+
+90: Nhà song lập (DUPLEX - ALL STYLES AND AGES).
+Nhà cho hai hộ gia đình (duplex).
+
+120: Nhà di động (MOBILE HOME).
+Nhà di động hoặc nhà lắp ghép.
+
+150: Nhà cho nhiều gia đình (1-STORY PUD - ALL AGES).
+Nhà một tầng thuộc khu dự án nhà ở chung (Planned Unit Development - PUD).
+
+160: Nhà townhouse hai tầng (TOWNHOUSE - END UNIT).
+Nhà phố hai tầng, nằm ở đầu dãy.
+
+180: Nhà townhouse một tầng (TOWNHOUSE - INSIDE UNIT).
+Nhà phố một tầng, nằm giữa dãy.
+
+190: Nhà cho nhiều gia đình (2FMCON - TWO-FAMILY CONVERSION).
+Nhà cải tạo thành nhà cho hai hộ gia đình.
+
+2. mszoning
+RL (Residential Low Density)
+Khu dân cư mật độ thấp:
+Phù hợp với các khu vực chủ yếu là nhà ở dành cho một hộ gia đình.
+Thường là khu vực yên tĩnh với lô đất lớn hơn và ít nhà hơn.
+
+RM (Residential Medium Density)
+Khu dân cư mật độ trung bình:
+Chủ yếu là nhà ở dành cho một hộ hoặc nhiều hộ gia đình.
+Mật độ xây dựng cao hơn so với RL, phù hợp với khu vực có các căn hộ hoặc nhà phố.
+
+C (all) (Commercial)
+Khu vực thương mại:
+Được sử dụng cho các hoạt động kinh doanh, cửa hàng, hoặc văn phòng.
+Có thể bao gồm nhiều kiểu phát triển thương mại.
+
+FV (Floating Village Residential)
+Khu nhà ở kiểu làng nổi:
+Một khu vực đặc biệt dành cho nhà ở nằm gần nước hoặc khu vực có quy hoạch linh hoạt.
+Thường có giá trị cao vì liên quan đến khu vực ven hồ hoặc gần sông.
+
+RH (Residential High Density)
+Khu dân cư mật độ cao:
+Chủ yếu dành cho các khu vực có nhà ở dạng căn hộ hoặc các khu nhà cho thuê với mật độ dân cư cao hơn.
+Phù hợp với các thành phố hoặc khu đô thị.
+
+Tác động: Giá trị của cột MSZoning thường ảnh hưởng trực tiếp đến SalePrice. Ví dụ: Nhà ở khu RL hoặc FV thường có giá trị cao hơn vì không gian rộng rãi và môi trường tốt.
+
+3. LotArea
+1 feet vuông = 0,092903 m2
+
+4. LotConfig
+Inside
+Lô đất ở bên trong:
+Lô đất nằm giữa các lô đất khác trong khu phố.
+Không nằm ở góc, đường cụt hoặc cạnh đường lớn.
+Đây là cấu hình phổ biến nhất và thường ít giá trị hơn so với các vị trí đặc biệt.
+
+FR2 (Frontage on 2 sides)
+Lô đất mặt tiền hai phía:
+Lô đất có hai mặt tiếp giáp với đường.
+Thường nằm ở các góc hoặc giao lộ, có tiềm năng sử dụng linh hoạt hơn.
+Giá trị thường cao hơn so với các lô đất bên trong.
+
+Corner
+Lô đất góc:
+Lô đất nằm ở góc giao nhau của hai con đường.
+Lợi thế về mặt giao thông, tầm nhìn thoáng hơn và thường có diện tích tiếp xúc đường lớn.
+Giá trị thường cao hơn so với lô bên trong.
+
+CulDSac (Cul-de-sac)
+Lô đất nằm ở đường cụt:
+Lô đất nằm ở cuối đường cụt, ít xe cộ qua lại, tạo không gian yên tĩnh và an toàn hơn.
+Thích hợp với các gia đình và thường có giá trị cao.
+
+FR3 (Frontage on 3 sides)
+Lô đất mặt tiền ba phía:
+Lô đất đặc biệt có ba mặt tiếp giáp với đường.
+Thường là lô đất hiếm, giá trị cao do vị trí đặc biệt.
+
+Tác động: Lô đất ở vị trí Corner, CulDSac, hoặc FR3 thường được đánh giá cao hơn vì có lợi thế về mặt vị trí và sử dụng.
+
+5. BldgType
+1Fam (Single-family Detached)
+Nhà đơn lập:
+Nhà dành cho một gia đình, không chia sẻ tường với các nhà khác.
+Loại nhà này thường có diện tích rộng, giá trị cao hơn so với các loại nhà ở khác.
+
+2fmCon (Two-family Conversion)
+Nhà cải tạo thành hai hộ gia đình:
+Một tòa nhà ban đầu được thiết kế cho một gia đình nhưng sau đó đã được cải tạo thành nhà cho hai hộ gia đình.
+Loại này thường phổ biến ở các khu vực có mật độ dân cư cao hoặc nhu cầu thuê nhà lớn.
+
+Duplex
+Nhà song lập:
+Một tòa nhà được thiết kế từ đầu để chứa hai hộ gia đình riêng biệt.
+Mỗi hộ gia đình có lối đi riêng và các tiện nghi độc lập.
+
+TwnhsE (Townhouse End Unit)
+Nhà phố - căn góc:
+Nhà phố nằm ở đầu dãy, chỉ có một bên tường chung với nhà liền kề.
+Thường có thêm diện tích sân hoặc cửa sổ thoáng hơn so với các căn ở giữa dãy.
+
+Twnhs (Townhouse Inside Unit)
+Nhà phố - căn giữa:
+Nhà phố nằm giữa dãy, chia sẻ tường với hai bên nhà liền kề.
+Loại này có giá trị thấp hơn so với căn góc (TwnhsE) vì ít không gian và ánh sáng hơn.
+
+Tác động: Loại nhà 1Fam thường có giá trị cao nhất, trong khi Twnhs hoặc 2fmCon có thể có giá trị thấp hơn do diện tích nhỏ hơn hoặc do tính chất chia sẻ.
+
+6. Exterior1st
+
+VinylSd (Vinyl Siding)
+Tấm ốp Vinyl:
+Loại vật liệu phổ biến nhất, giá thành rẻ, bền, dễ bảo trì và chống thời tiết tốt.
+
+MetalSd (Metal Siding)
+Tấm ốp kim loại:
+Sử dụng tấm ốp bằng kim loại, thường là nhôm hoặc thép, bền nhưng dễ bị ăn mòn nếu không bảo dưỡng tốt.
+
+Wd Sdng (Wood Siding)
+Tấm ốp gỗ:
+Tấm ốp gỗ tự nhiên, đẹp nhưng cần bảo trì thường xuyên để tránh mối mọt và thời tiết làm hỏng.
+
+HdBoard (Hardboard)
+Gỗ ép cứng:
+Một loại tấm ốp từ sợi gỗ nén, giá thành thấp, nhưng có thể bị hỏng nhanh nếu tiếp xúc nhiều với nước.
+
+BrkFace (Brick Face)
+Mặt gạch:
+Sử dụng gạch làm lớp phủ ngoài, tạo cảm giác sang trọng và tăng độ bền của ngôi nhà.
+
+WdShing (Wood Shingle)
+Tấm lợp gỗ:
+Gỗ tự nhiên được xẻ mỏng, thường dùng trong các ngôi nhà kiểu cổ hoặc ven biển, đẹp nhưng đắt và dễ hỏng.
+
+CemntBd (Cement Board)
+Tấm xi măng sợi:
+Vật liệu bền, chống cháy và chống thấm nước tốt, được sử dụng ngày càng phổ biến trong xây dựng hiện đại.
+
+Plywood
+Gỗ dán:
+Tấm gỗ được tạo từ nhiều lớp mỏng dán ép với nhau, giá thành thấp nhưng dễ bị hỏng trong môi trường ẩm.
+
+AsbShng (Asbestos Shingle)
+Tấm lợp amiăng:
+Loại tấm lợp cũ, không còn phổ biến do vấn đề về sức khỏe (liên quan đến amiăng).
+
+Stucco
+Tấm ốp vữa:
+Một lớp phủ trang trí làm từ hỗn hợp vôi, xi măng, và cát, thường dùng trong kiến trúc Địa Trung Hải hoặc Tây Ban Nha.
+
+BrkComm (Brick Common)
+Gạch thông thường:
+Sử dụng gạch truyền thống để ốp ngoài, phù hợp với các ngôi nhà cổ điển hoặc bền vững.
+
+AsphShn (Asphalt Shingle)
+Tấm lợp nhựa đường:
+Loại vật liệu giá rẻ, nhẹ, dễ lắp đặt nhưng không bền bằng các vật liệu khác.
+
+Stone
+Đá tự nhiên:
+Một vật liệu cao cấp, rất bền và đẹp, nhưng chi phí cao.
+
+ImStucc (Imitation Stucco)
+Vữa giả:
+Một phiên bản giá rẻ của stucco thật, dễ lắp đặt hơn nhưng không bền bằng.
+
+CBlock (Cinder Block)
+Gạch block xỉ:
+Gạch xi măng rỗng, chủ yếu được sử dụng trong các công trình ít tập trung vào tính thẩm mỹ.
+
+Tác động: Vật liệu cao cấp như Stone, BrkFace, hoặc CemntBd thường làm tăng giá trị ngôi nhà, trong khi vật liệu rẻ hơn như HdBoard hoặc AsphShn có thể giảm giá trị.
+
+
+
